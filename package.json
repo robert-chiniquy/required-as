@@ -1,0 +1,22 @@
+{
+  "name": "required-as",
+  "version": "0.0.0",
+  "description": "Get a list of require()'d modules in a javascript module along with the names in module scope the module objects are assigned to.",
+  "main": "lib/required-as.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "esprima": "~1.0.3",
+    "underscore": "~1.4.4"
+  },
+  "devDependencies": {
+    "whiskey": "~0.8.3"
+  },
+  "scripts": {
+    "test": "node_modules/whiskey/bin/whiskey -t tests/test-required-as.js"
+  },
+  "repository": "",
+  "author": "Robert Chiniquy",
+  "license": "Apache 2.0"
+}
