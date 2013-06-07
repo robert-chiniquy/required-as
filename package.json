@@ -16,7 +16,7 @@
   "scripts": {
     "test": "node_modules/whiskey/bin/whiskey -t tests/test-required-as.js"
   },
-  "repository": "",
+  "repository": "git@github.com:robert-chiniquy/required-as.git",
   "author": "Robert Chiniquy",
   "license": "Apache 2.0"
 }
